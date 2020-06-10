@@ -12,24 +12,27 @@
       <nav>
         <h1>BASKETBALL!</h1>
         <ul>
-          <li>Rules</li>
-          <li>Teams</li>
-          <li>Roster</li>
+          <li><a href="#">Rules</a></li>
+          <li><a href="#">Teams</a></li>
+          <li><a href="#">Roster</a></li>
         </ul>
       </nav>
     </header>
-    <p><img src="https://dummyimage.com/600x400/000/fff" alt="The Court" /></p>
+    <figure>
+      <img src="https://dummyimage.com/600x400/000/fff" alt="The Court" />
+    </figure>
+
     <h2>History</h2>
-
-    <h3>High School Basketball</h3>
-
-    <p>
-      Most high schools have a freshman, junior varsity and varsity team. The
-      most talented players will form the varsity team and will have the
-      opportunity to showcase their talents to win a scholarship and compete at
-      the next level.
-    </p>
-
+    <article>
+      <h3>High School Basketball!</h3>
+      <a href="#">"High School Basketball Rankings alt="HS Rankings </a>
+      <p>
+        Most high schools have a freshman, junior varsity and varsity team. The
+        most talented players will form the varsity team and will have the
+        opportunity to showcase their talents to win a scholarship and compete
+        at the next level.
+      </p>
+    </article>
     <h3>College Basketball</h3>
 
     <p>
@@ -39,9 +42,12 @@
       a good conference which allows them to compete against the top tier
       athletes.
     </p>
-
-    <img src="https://dummyimage.com/500x300/000/fff" alt="Team in a huddle" />
-
+    <figure>
+      <img
+        src="https://dummyimage.com/500x300/000/fff"
+        alt="Team in a huddle"
+      />
+    </figure>
     <h3>Professional Basketball</h3>
 
     <p>
@@ -50,18 +56,23 @@
       market.
     </p>
 
-    <img src="https://dummyimage.com/300x300/000/fff" alt="A Basketball" />
-
+    <figure>
+      <img src="https://dummyimage.com/300x300/000/fff" alt="A Basketball" />
+    </figure>
     <footer>
       <body>
         <h4>Join our team</h4>
-        <form>
+        <form class="newsletter">
+          <p>
+            <label for="name">Name</label>
+            <input type="text" name="full-name" />
+          </p>
           <p>
             <label for="email-address">Email address</label>
             <input type="text" name="email-address" />
           </p>
           <p>
-            <input type="submit" value="Sign Up" />
+            <input class="button" type="submit" value="Sign Up" />
           </p>
         </form>
 
